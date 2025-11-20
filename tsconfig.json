@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    "skipLibCheck": true,
+
+    "strict": false,
+
+    "sourceMap": true,
+
+    "verbatimModuleSyntax": false,
+
+    "moduleDetection": "auto"
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
